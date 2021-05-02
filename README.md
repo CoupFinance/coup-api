@@ -37,10 +37,9 @@ The Spring Boot API for Coup Finance.
     - Checkouts any existing branch including master
 - `git pull`
     - Pulls in all of the new changes
-       - If on a local branch to pull in master changes the upstream must be set
-       - If on the master branch it will pull all of the new changes
+       - If you are on a local branch to pull in master changes the upstream must be set
+       - If you are on the master branch it will pull in all of the new changes
 - `git branch -l`
-    - l
     - Lists all of the local branches
 - `git branch -la`
     - Lists all of the local and remote branches
