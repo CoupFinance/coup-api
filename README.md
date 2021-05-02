@@ -10,14 +10,14 @@ The Spring Boot API for Coup Finance.
     - Try to keep the number of files under 20
 3. Add the files and changes to your commit
     - `git add .`
-        - for adding all changes
+        - For adding all changes
     - `git add <filename>` 
-        - for adding a specific file
+        - For adding a specific file
 4. Commit your changes 
     - `git commit -m "<message>"`
-        - make your message a present decription of the changes
-        - ex `"Adding try catch to validate function"`
-        - use a present verb like `Adding`, `Fixing`, etc.
+        - Make your message a present decription of the changes
+        - Ex `"Adding try catch to validate function"`
+        - Use a present verb like `Adding`, `Fixing`, etc.
 5. Push your changes
     - `git push`
         - If this is your first time pushing on this branch you will get an upstream output
@@ -34,21 +34,22 @@ The Spring Boot API for Coup Finance.
 
 ### Helpful Git Commands
 - `git checkout <branchname>`
-    - checkouts any existing branch including master
+    - Checkouts any existing branch including master
 - `git pull`
-    - pulls in all of the new changes
-       - if on a local branch to pull in master changes the upstream must be set
-       - if on the master branch it will pull all of the new changes
+    - Pulls in all of the new changes
+       - If on a local branch to pull in master changes the upstream must be set
+       - If on the master branch it will pull all of the new changes
 - `git branch -l`
-    - lists all of the local branches
+    - l
+    - Lists all of the local branches
 - `git branch -la`
-    - lists all of the local and remote branches
-        - useful if you need to pull in a remote branch
+    - Lists all of the local and remote branches
+        - Useful if you need to pull in a remote branch
 ### README.md
 - This should be a flowing document
 - All relevent and useful development information should be added to the README.md
     - Diagrams
     - Flows
     - Testing practices and commands
-    - Key architecture description
+    - Key architecture design
 - Useful markdown language guide [markdown](https://www.markdownguide.org/basic-syntax/)
