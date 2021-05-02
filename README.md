@@ -3,7 +3,7 @@ The Spring Boot API for Coup Finance.
 
 ### Development Practices
 1. Create a new branch for any development
-    - Branch name formant `changing-some-thing`
+    - Branch name format `changing-some-thing`
     - Command: `git checkout -b <branchname>` 
 2. Add changes to new branch
     - Try to keep additions under 300 lines
