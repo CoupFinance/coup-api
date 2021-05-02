@@ -3,21 +3,21 @@ The Spring Boot API for Coup Finance.
 
 ### Development Practices
 1. Create a new branch for any development
-    - Branch name formant `changing-some-thing`
+    - Branch name format `changing-some-thing`
     - Command: `git checkout -b <branchname>` 
 2. Add changes to new branch
     - Try to keep additions under 300 lines
     - Try to keep the number of files under 20
 3. Add the files and changes to your commit
     - `git add .`
-        - For adding all changes
+        - for adding all changes
     - `git add <filename>` 
-        - For adding a specific file
+        - for adding a specific file
 4. Commit your changes 
     - `git commit -m "<message>"`
-        - Make your message a present decription of the changes
-        - Ex `"Adding try catch to validate function"`
-        - Use a present verb like `Adding`, `Fixing`, etc.
+        - make your message a present decription of the changes
+        - ex `"Adding try catch to validate function"`
+        - use a present verb like `Adding`, `Fixing`, etc.
 5. Push your changes
     - `git push`
         - If this is your first time pushing on this branch you will get an upstream output
@@ -31,24 +31,26 @@ The Spring Boot API for Coup Finance.
 9. Resolve comments and changes during the review
     - The review should be under 24 hrs
 10.  Once approved, merge your changes to the "current" branch
+    - `git checkout current`
+    - `git merge branch_name`
 
 ### Helpful Git Commands
 - `git checkout <branchname>`
-    - Checkouts any existing branch including master
+    - checkouts any existing branch including master
 - `git pull`
-    - Pulls in all of the new changes
-       - If you are on a local branch to pull in master changes the upstream must be set
-       - If you are on the master branch it will pull in all of the new changes
+    - pulls in all of the new changes
+       - if on a local branch to pull in master changes the upstream must be set
+       - if on the master branch it will pull all of the new changes
 - `git branch -l`
-    - Lists all of the local branches
+    - lists all of the local branches
 - `git branch -la`
-    - Lists all of the local and remote branches
-        - Useful if you need to pull in a remote branch
+    - lists all of the local and remote branches
+        - useful if you need to pull in a remote branch
 ### README.md
 - This should be a flowing document
 - All relevent and useful development information should be added to the README.md
     - Diagrams
     - Flows
     - Testing practices and commands
-    - Key architecture design
+    - Key architecture description
 - Useful markdown language guide [markdown](https://www.markdownguide.org/basic-syntax/)
