@@ -52,3 +52,8 @@ The Spring Boot API for Coup Finance.
     - Testing practices and commands
     - Key architecture design
 - Useful markdown language guide [markdown](https://www.markdownguide.org/basic-syntax/)
+
+## API Teams
+- Mamba
+    - The team for the main contibutors and the CODEOWNERS.
+    - When in doubt add us to review!
