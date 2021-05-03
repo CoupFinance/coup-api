@@ -27,7 +27,7 @@ The Spring Boot API for Coup Finance.
 6. Go to GitHub and create a new Pull Request
 7. Add a description of the changes and add yourself as the assignee
     - Also add appropiate tags
-8. Add @MatthewPeery as a reviewer
+8. Add @MatthewPeery or @kgrewal2 as a reviewer
 9. Resolve comments and changes during the review
     - The review should be under 24 hrs
 10.  Once approved, merge your changes to the "current" branch
