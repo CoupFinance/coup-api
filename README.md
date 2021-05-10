@@ -1,6 +1,9 @@
 # coup-api
 The Spring Boot API for Coup Finance.
 
+### DTO and Data Flow
+![apiDataFlow](https://user-images.githubusercontent.com/29990286/117688898-157d8a80-b16e-11eb-9c08-7f74289b1340.jpg)
+
 ### Development Practices
 1. Create a new branch for any development
     - Branch name format `changing-some-thing`
